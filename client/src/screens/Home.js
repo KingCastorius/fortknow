@@ -3,6 +3,19 @@ import axios from 'axios';
 import 'bootstrap/dist/css/bootstrap.css';
 import { Button } from 'reactstrap';
 import { Container, Row, Col } from 'reactstrap';
+const Fortnite = require("fortnite-api");
+
+let fortniteAPI = new Fortnite(
+    [
+        "malizakzorz@gmail.com",
+        "Lolwat77",
+        "MzRhMDJjZjhmNDQxNGUyOWIxNTkyMTg3NmRhMzZmOWE6ZGFhZmJjY2M3Mzc3NDUwMzlkZmZlNTNkOTRmYzc2Y2Y=Decoded Username:Password= 34a02cf8f4414e29b15921876da36f9a:daafbccc737745039dffe53d94fc76cf",
+        "FORTNITE CLIENT TOKEN"
+    ],
+    {
+        debug: true
+    }
+);
 
 class HomePage extends React.Component{
 
