@@ -6,7 +6,7 @@ import { Container, Row, Col } from 'reactstrap';
 const Fortnite = require("fortnite-api");
 
 let fortniteAPI = new Fortnite(
-  
+
   
     [
         "malizakzorz@gmail.com",
@@ -31,6 +31,9 @@ class HomePage extends React.Component{
               <a href="/home">Home  </a>
               <h1>Fortknow</h1>
               <p>Stay in the Know</p>
+              <div>
+              "https://fortnite-public-service-prod11.ol.epicgames.com/fortnite/api/storefront/v2/catalog"
+              </div>
             </Col>
           </Row>
         </Container>
