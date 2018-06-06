@@ -3,6 +3,7 @@ import axios from 'axios';
 import 'bootstrap/dist/css/bootstrap.css';
 import { Button } from 'reactstrap';
 import { Container, Row, Col } from 'reactstrap';
+import Styles from '../styles'
 const Fortnite = require("fortnite-api");
 
 let fortniteAPI = new Fortnite(
@@ -29,7 +30,7 @@ class HomePage extends React.Component{
           <Row>
             <Col is="desktop-12" >
               <a href="/home">Home  </a>
-              <h1>Fortknow</h1>
+              <h1 style={Styles.pageHeader}>Fortknow</h1>
               <p>Stay in the Know</p>
               <div>
               "https://fortnite-public-service-prod11.ol.epicgames.com/fortnite/api/storefront/v2/catalog"
