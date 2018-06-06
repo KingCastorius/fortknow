@@ -7,6 +7,7 @@ const Fortnite = require("fortnite-api");
 
 let fortniteAPI = new Fortnite(
   
+  
     [
         "malizakzorz@gmail.com",
         "Lolwat77",
