@@ -28,7 +28,7 @@ class HomePage extends React.Component{
       <div>
         <Container>
           <Row>
-            <Col is="desktop-12" >
+            <Col is="desktop-12" style={Styles.bgColor} >
               <a href="/home">Home  </a>
               <h1 style={Styles.pageHeader}>Fortknow</h1>
               <p>Stay in the Know</p>
