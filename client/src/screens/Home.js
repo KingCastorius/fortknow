@@ -35,6 +35,7 @@ class HomePage extends React.Component{
               <div>
               "https://fortnite-public-service-prod11.ol.epicgames.com/fortnite/api/storefront/v2/catalog"
               </div>
+              
             </Col>
           </Row>
         </Container>
