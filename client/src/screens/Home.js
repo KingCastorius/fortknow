@@ -38,17 +38,11 @@ class HomePage extends React.Component{
               
             </Col>
           </Row>
-
         </Container>
-
-
 
         <Container>
           <Row>
-
             <Col is="desktop-12" >
-                
-                
                 <form>
 
 
